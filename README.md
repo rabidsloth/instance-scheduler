@@ -33,6 +33,8 @@ frank.sinatra:
 * `DD_TRACE_AGENT_PORT`
 * `DD_SERVICE`
 * `DD_ENV`
+* `GIPHY_API_KEY`
+* `GIPHY_LIMIT`
 
 ## requirements
 
