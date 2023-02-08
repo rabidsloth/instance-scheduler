@@ -1,0 +1,20 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Instance-Scheduler!*\n _essentially a lightswitch with a timer!_\n\nHit the button to {{ if .Override }}remove the override and allow your instance to shutdown when scheduled {{ else }}override the shutdown of your instance {{ end }}"
+			},
+			"accessory": {
+				"type": "button",
+				"action_id": "instance_override",
+				"text": {
+					"type": "plain_text",
+					"text": "{{ if .Override }} Remove Override {{ else }} Override Shutdown {{ end }}"
+				}
+			}
+		}
+	]
+}

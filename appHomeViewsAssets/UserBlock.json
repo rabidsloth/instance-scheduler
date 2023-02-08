@@ -1,0 +1,26 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Your instance status:\nOff time: {{ .OffTime }}\nOn time: {{ .OnTime }}\nOff Days:\n{{range $element := .OffDays}}    • {{$element}}\n{{end}}\n\n\nCurrently: {{ .Status }}\nOverride: {{ .Override }}"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "image",
+			"title": {
+				"type": "plain_text",
+				"text": "and now a message from our sponsers..."
+			},
+			"image_url": "{{ .ImageUrl }}"
+		}
+	]
+}

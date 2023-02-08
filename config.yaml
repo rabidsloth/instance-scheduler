@@ -1,0 +1,10 @@
+billy.zane:
+  name: remote-dev-billy-zane
+  offdays: 
+    - Saturday
+    - Sunday
+  offtime: 19h12m
+  ontime: 7h
+  override: false
+  username: billy.zane
+  email: billy.zane@coolperson.com
